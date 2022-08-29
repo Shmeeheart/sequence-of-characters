@@ -1,10 +1,12 @@
-# Title sequence-of-characters
+# Sequence-Of-Characters
 
-Introductory paragraph: A sequence of characters that defines a specific search pattern. This is what we are learning about today - regular expressions (a.k.a. regex). We will go through several different concepts to ensure one is confident in regular expressions.
+A sequence of characters that defines a specific search pattern. This is what we are learning about today - regular expressions (a.k.a. regex). We will go through several different concepts to ensure one is confident in regular expressions in reference to matching email addresses.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+We are going to learn how to identify the different components that make up a regex and explain what they do for Matching an Email.
+
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 ## Table of Contents
 
