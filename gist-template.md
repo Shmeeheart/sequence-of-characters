@@ -20,7 +20,6 @@ We are going to learn how to identify the different components that make up a re
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
@@ -135,8 +134,6 @@ You may need to change word boundaries into start/end-of-string anchors, or vice
 ### Back-references
 
 Not really applicable for email matching. However, to provide some insight - we can use the contents of capturing groups (...) not only in the result or in the replacement string, but also in the patther itself.
-
-### Look-ahead and Look-behind
 
 ## Author
 
