@@ -55,7 +55,19 @@ If you want to avoid your system choking on arbitrarily large input, you can rep
 
 ### OR Operator
 
--
+We recall the OR operator utilized in javascript. However, in email validation it isn't really utilized.
+
+Here is an example for your information:
+
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+
+This is a regex for matching a hex code that uses the OR Operator. What this will do is it will match where it starts with the # and that has to come first followed by one of the following:
+
+[a-f0-9]{6} which will match a 6 character long string that contains a combination of a-f letters and 0-9 numbers.
+
+| OR Operator
+
+[a-f0-9]{3} it will match a 3 character long string that contains a combination of a-f letters and 0-9 numbers.
 
 ### Character Classes
 
